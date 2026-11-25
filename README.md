@@ -1,19 +1,9 @@
 # Car Anti-Theft System on FPGA
 
-![HDL](https://img.shields.io/badge/HDL-SystemVerilog-1f6feb)
-![Tool](https://img.shields.io/badge/Tool-Vivado-e36209)
-![Board](https://img.shields.io/badge/Board-Nexys_A7--100T-2ea44f)
-![Timing](https://img.shields.io/badge/Timing-met_at_100_MHz-brightgreen)
-
 A car anti-theft system designed as a set of interacting finite state machines in SystemVerilog and implemented on a Digilent **Nexys A7-100T** (Artix-7) board with Vivado.
 
 The system arms itself after the driver leaves the car, sounds a siren if a door is opened and the ignition is not turned on in time, and secretly keeps the fuel pump off until the ignition is on and a hidden switch and the brake are pressed together. All four delays can be reprogrammed from the board switches while the system is running.
 
-
-
-<p align="center"><sub>Mini Project 1 · Advanced Digital Systems Design (ADSD) · NUST Chip Design Center (NCDC), SEECS</sub></p>
-
-**Contents:** [Features](#features) · [Board I/O](#board-io) · [Architecture](#architecture) · [State machines](#state-machines) · [Getting started](#getting-started) · [Try it on the board](#try-it-on-the-board) · [Simulation](#simulation) · [Implementation results](#implementation-results) · [Design notes](#design-notes)
 
 ## Features
 
