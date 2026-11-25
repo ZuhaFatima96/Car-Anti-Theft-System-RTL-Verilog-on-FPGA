@@ -9,7 +9,10 @@ A car anti-theft system designed as a set of interacting finite state machines i
 
 The system arms itself after the driver leaves the car, sounds a siren if a door is opened and the ignition is not turned on in time, and secretly keeps the fuel pump off until the ignition is on and a hidden switch and the brake are pressed together. All four delays can be reprogrammed from the board switches while the system is running.
 
-
+<p align="center">
+  <img src="docs/images/board_1.jpg" alt="Anti-theft system running on the Nexys A7-100T" width="30%">
+  <img src="docs/images/board_2.jpg" alt="Anti-theft system running on the Nexys A7-100T" width="30%">
+  <img src="docs/images/board_3.jpg" alt="Anti-theft system running on the Nexys A7-100T" width="30%">
 </p>
 
 <p align="center"><sub>Mini Project 1 · Advanced Digital Systems Design (ADSD) · NUST Chip Design Center (NCDC), SEECS</sub></p>
